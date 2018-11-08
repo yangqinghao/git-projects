@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework:spring-core:${spring.vension}">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/${spring.vension}/spring-core-${spring.vension}.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/${spring.vension}/spring-core-${spring.vension}-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/${spring.vension}/spring-core-${spring.vension}-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

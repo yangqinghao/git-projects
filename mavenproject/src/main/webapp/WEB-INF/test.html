@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script type="application/javascript" >
+    $(function () {
+     function Account(cash) {
+         this.cash = cash||'123';
+         this.hasmoney = !!cash;
+     }
+     var account = new Account(100);
+     console.info(account.hasmoney);
+     var noaccount = new Account(0);
+     console.info(noaccount.hasmoney);
+     function getnumber(number) {
+         return +number;
+     }
+     console.info(getnumber("123"));
+     console.info(getnumber("ASD"));
+     var length = array.length;
+     for(var i = 0 ,length = array.length;i<length;i++){
+         console.info(array[i]);
+     }
+
+     var array = [1,2,3,5,67,87];
+        array.slice(-1);//最后一个数
+        array.length = 4;//设置数组长度来截取数组
+        console.log(array);
+        var array2 = [432,234,23,42,3];
+        array.concat(array2);
+        //数组数据量大的,合并
+        array.push.apply(array2);
+      var pjo = {
+          "PI":123123,
+          "are":function (r) {
+              return this.PI*123;
+          }
+      }
+    })
+</script>
+<body>
+
+</body>
+</html>
